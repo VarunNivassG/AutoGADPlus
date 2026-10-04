@@ -1,0 +1,18 @@
+autogad:
+  url: https://github.com/ZhongLIFR/AutoGAD2024
+  environment: python=3.7.8, torch=1.10.2, dgl=0.4.1
+anemone:
+  url: https://github.com/TrustAGI-Lab/ANEMONE
+  environment: python=3.6.1, torch=1.8.1, dgl=0.4.1
+cola:
+  url: https://github.com/TrustAGI-Lab/CoLA
+  environment: python>=3.7, torch>=1.8.1, dgl=0.4.0
+gradate:
+  url: https://github.com/FelixDJC/GRADATE
+  environment: python=3.7, torch=1.10.2, dgl=0.4.1
+sl_gad:
+  url: https://github.com/KimMeen/SL-GAD
+  environment: python=3.6.1, torch=1.8.1, dgl=0.4.1
+sub_cr:
+  url: https://github.com/Zjer12/Sub
+  environment: see upstream README

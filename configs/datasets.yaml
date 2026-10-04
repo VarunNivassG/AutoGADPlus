@@ -1,0 +1,69 @@
+cora:
+  type: citation_injected
+  nodes: 2708
+  edges: 5429
+  attributes: 1433
+  anomalies: 150
+
+citeseer:
+  type: citation_injected
+  nodes: 3327
+  edges: 4732
+  attributes: 3703
+  anomalies: 150
+
+pubmed:
+  type: citation_injected
+  nodes: 19717
+  edges: 44338
+  attributes: 500
+  anomalies: 600
+
+acm:
+  type: injected
+  nodes: 16484
+  edges: 71980
+  attributes: 8337
+  anomalies: 600
+
+blogcatalog:
+  type: injected
+  nodes: 5196
+  edges: 171743
+  attributes: 8189
+  anomalies: 300
+
+flickr:
+  type: injected
+  nodes: 7575
+  edges: 239738
+  attributes: 12407
+  anomalies: 450
+
+amazon:
+  type: real
+  nodes: 10244
+  edges: 175608
+  attributes: 25
+  anomalies: 693
+
+facebook:
+  type: real
+  nodes: 1081
+  edges: 55104
+  attributes: 576
+  anomalies: 27
+
+reddit:
+  type: real
+  nodes: 10984
+  edges: 168016
+  attributes: 64
+  anomalies: 366
+
+yelpchi:
+  type: real
+  nodes: 24741
+  edges: 49315
+  attributes: 32
+  anomalies: 1217

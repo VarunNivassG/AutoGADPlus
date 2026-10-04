@@ -1,0 +1,16 @@
+seed: 42
+runs: 1
+k_anomaly: 150
+
+anemone:
+  hidden_dim: 64
+  epochs: 10
+  batch_size: 128
+  lr: 0.001
+  weight_decay: 0.0
+  restart_prob: 0.15
+  inference_rounds: 5
+  negsamp_round_patch: 1
+  negsamp_round_context: 1
+  device: cpu
+  resample_views_each_epoch: false

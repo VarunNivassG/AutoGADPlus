@@ -1,0 +1,30 @@
+anemone:
+  implementation: native
+cola:
+  implementation: official_external
+  repo: https://github.com/TrustAGI-Lab/CoLA
+gradate:
+  implementation: official_external
+  repo: https://github.com/FelixDJC/GRADATE
+sl_gad:
+  implementation: official_external
+  repo: https://github.com/KimMeen/SL-GAD
+sub_cr:
+  implementation: official_external
+  repo: https://github.com/Zjer12/Sub
+dominant:
+  implementation: pygod
+  class: DOMINANT
+anomalydae:
+  implementation: pygod
+  class: AnomalyDAE
+guide:
+  implementation: pygod
+  class: GUIDE
+
+gaan:
+  implementation: pygod
+  class: GAAN
+conad:
+  implementation: pygod
+  class: CONAD

@@ -1,0 +1,51 @@
+{
+  "started_at_utc": "2026-10-02T10:52:03.868715+00:00",
+  "command": "C:\\Dev\\Projects\\College\\SEM5\\ML\\AutoGAD-Reproduction\\src\\autogad_reproduction\\cli.py run --dataset data/processed/cora/cora.mat --model anemone --k 150",
+  "dataset_path": "data/processed/cora/cora.mat",
+  "dataset": {
+    "name": "cora",
+    "num_nodes": 2708,
+    "num_features": 1433,
+    "num_edges": 5803,
+    "labels_available": true
+  },
+  "model": "anemone",
+  "search_space": {
+    "K": [
+      2,
+      3
+    ],
+    "alpha": [
+      0.1,
+      0.5,
+      0.8
+    ]
+  },
+  "anomaly_k": 150,
+  "model_defaults": {
+    "hidden_dim": 64,
+    "epochs": 10,
+    "batch_size": 128,
+    "lr": 0.001,
+    "weight_decay": 0.0,
+    "restart_prob": 0.15,
+    "inference_rounds": 5,
+    "negsamp_round_patch": 1,
+    "negsamp_round_context": 1,
+    "device": "cpu",
+    "resample_views_each_epoch": false
+  },
+  "python": "3.13.16 (tags/v3.13.16:cbc944f, Sep 30 2026, 19:17:50) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "torch_version": "2.14.1+cpu",
+  "numpy_version": "2.5.3",
+  "selected_params": {
+    "K": 2,
+    "alpha": 0.1
+  },
+  "selected_csm": 2.2149808437550975,
+  "final_roc_auc": 0.7987776909043525,
+  "finished_at_utc": "2026-10-02T11:00:52.844025+00:00",
+  "status": "completed",
+  "wall_time_sec": 528.9763520999986
+}
